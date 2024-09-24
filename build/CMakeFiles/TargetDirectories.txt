@@ -1,0 +1,7 @@
+/run/media/skye/Files/Projects/Game/build/CMakeFiles/game.dir
+/run/media/skye/Files/Projects/Game/build/CMakeFiles/edit_cache.dir
+/run/media/skye/Files/Projects/Game/build/CMakeFiles/rebuild_cache.dir
+/run/media/skye/Files/Projects/Game/build/CMakeFiles/list_install_components.dir
+/run/media/skye/Files/Projects/Game/build/CMakeFiles/install.dir
+/run/media/skye/Files/Projects/Game/build/CMakeFiles/install/local.dir
+/run/media/skye/Files/Projects/Game/build/CMakeFiles/install/strip.dir

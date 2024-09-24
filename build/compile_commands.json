@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/run/media/skye/Files/Projects/Game/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/game.dir/main.cpp.o -c /run/media/skye/Files/Projects/Game/main.cpp",
+  "file": "/run/media/skye/Files/Projects/Game/main.cpp",
+  "output": "CMakeFiles/game.dir/main.cpp.o"
+},
+{
+  "directory": "/run/media/skye/Files/Projects/Game/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/game.dir/Game.cpp.o -c /run/media/skye/Files/Projects/Game/Game.cpp",
+  "file": "/run/media/skye/Files/Projects/Game/Game.cpp",
+  "output": "CMakeFiles/game.dir/Game.cpp.o"
+},
+{
+  "directory": "/run/media/skye/Files/Projects/Game/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/game.dir/ResourceManager.cpp.o -c /run/media/skye/Files/Projects/Game/ResourceManager.cpp",
+  "file": "/run/media/skye/Files/Projects/Game/ResourceManager.cpp",
+  "output": "CMakeFiles/game.dir/ResourceManager.cpp.o"
+},
+{
+  "directory": "/run/media/skye/Files/Projects/Game/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/game.dir/GameObject.cpp.o -c /run/media/skye/Files/Projects/Game/GameObject.cpp",
+  "file": "/run/media/skye/Files/Projects/Game/GameObject.cpp",
+  "output": "CMakeFiles/game.dir/GameObject.cpp.o"
+},
+{
+  "directory": "/run/media/skye/Files/Projects/Game/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/game.dir/ObjectManager.cpp.o -c /run/media/skye/Files/Projects/Game/ObjectManager.cpp",
+  "file": "/run/media/skye/Files/Projects/Game/ObjectManager.cpp",
+  "output": "CMakeFiles/game.dir/ObjectManager.cpp.o"
+},
+{
+  "directory": "/run/media/skye/Files/Projects/Game/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/game.dir/Projectile.cpp.o -c /run/media/skye/Files/Projects/Game/Projectile.cpp",
+  "file": "/run/media/skye/Files/Projects/Game/Projectile.cpp",
+  "output": "CMakeFiles/game.dir/Projectile.cpp.o"
+}
+]

@@ -33,7 +33,7 @@ Executable=file:///run/media/skye/Files/Projects/Game
 External Terminal=konsole --workdir %workdir -e %exe
 Kill Before Executing Again=65536
 Project Target=Game,game
-Use External Terminal=true
+Use External Terminal=false
 Working Directory=
 isExecutable=false
 

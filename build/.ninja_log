@@ -1,9 +1,0 @@
-# ninja log v6
-2	380	1727032104850000000	CMakeFiles/game.dir/ObjectManager.cpp.o	174e40c47571b2ed
-2	391	1727032104850000000	CMakeFiles/game.dir/GameObject.cpp.o	5188fe5a7d3bbadc
-557	620	1727188449820000000	game	972eaf0f76d466e7
-1	26	1727533457800000000	build.ninja	9a8cdabc67efa0d5
-2	398	1727032104850000000	CMakeFiles/game.dir/Projectile.cpp.o	2a2f0645688fff1c
-3	580	1727032944470000000	CMakeFiles/game.dir/main.cpp.o	48c4204fda5897c0
-2	557	1727188449270000000	CMakeFiles/game.dir/Game.cpp.o	ecec8012e67f1d18
-2	804	1727031059160000000	CMakeFiles/game.dir/ResourceManager.cpp.o	17da1cb37f08b555

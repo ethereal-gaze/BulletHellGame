@@ -6,17 +6,18 @@
 using namespace Matm;
 
 Game::Game() : _resourceManager(std::filesystem::current_path().string() + "/Resources/Textures"), _window(
-	sf::VideoMode(1280, 720), "yes"), _gameState(Playing), _mainCamera(), proj(), _dt(1.0f / 60.0f), _accumulator(0.0f),
-	_environmentData() {}
+	sf::VideoMode(1280, 720), "yes"), _gameState(Playing), _mainCamera(), _dt(1.0f / 60.0f), _accumulator(0.0f),
+	_environmentData(), _objectManager() {}
 
 	void Game::run()
 	{
 		_resourceManager.loadTextures();
-		proj = Projectile(_resourceManager.getTexture(0));
+		Projectile prog = Projectile(_resourceManager.getTexture(0));
+		prog.setVelocity(sf::Vector2f(5, 5));
+
+		_objectManager.createProjectile(prog);
 
 		sf::Clock clock;
-
-		proj.setVelocity(sf::Vector2f(1, 1));
 
 		while (_window.isOpen())
 		{
@@ -61,12 +62,19 @@ Game::Game() : _resourceManager(std::filesystem::current_path().string() + "/Res
 
 		_window.clear(sf::Color(0,0,0,0));
 
-		_window.draw(proj);
+		for (auto object : _objectManager.getObjectList())
+		{
+			_window.draw(*object);
+		}
 
 		_window.display();
 	}
 
 	void Game::_gameRoutine()
 	{
-		proj.Ai(_environmentData);
+		for (auto object : _objectManager.getObjectList())
+		{
+			object->Ai(_environmentData);
+		}
+
 	}

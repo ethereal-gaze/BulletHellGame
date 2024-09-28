@@ -2,18 +2,21 @@
 
 #include <vector>
 #include "GameObject.hpp"
+#include "Projectile.hpp"
 
 namespace Matm
 {
 	class ObjectManager
 	{
 	public:
-		std::vector<sf::Sprite>& RetrieveRenderQueue();
-		GameObject& GetObject(int id);
-		int Register(GameObject object);
+		ObjectManager();
+
+		std::vector<GameObject*> getObjectList();
+		int createProjectile(Projectile object);
+		const Projectile& getProjectile(int id);
 
 	private:
-		std::vector<GameObject> _loadedObjects;
+		std::vector<Projectile> _loadedProjectiles;
 	};
 }
 

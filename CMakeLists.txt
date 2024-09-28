@@ -5,7 +5,7 @@ option(BUILD_SHARED_LIBS "Build shared libraries" OFF)
 
 
 
-add_executable(game main.cpp Game.cpp ResourceManager.cpp GameObject.cpp ObjectManager.cpp Projectile.cpp)
+add_executable(game main.cpp Game.cpp ResourceManager.cpp GameObject.cpp ObjectManager.cpp Projectile.cpp ObjectManager.cpp)
 
 
 target_link_libraries(game debug sfml-graphics sfml-system sfml-window)

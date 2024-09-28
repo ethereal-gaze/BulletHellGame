@@ -5,6 +5,7 @@
 #include <SFML/Graphics.hpp>
 #include "ResourceManager.hpp"
 #include "Projectile.hpp"
+#include "ObjectManager.hpp"
 
 namespace Matm
 {
@@ -24,10 +25,10 @@ namespace Matm
 		sf::RenderWindow _window;
 		GameState _gameState;
 		sf::View _mainCamera;
-		Projectile proj;
 		float _dt;
 		float _accumulator;
 		EnvironmentData _environmentData;
+		ObjectManager _objectManager;
 
 		void _graphicsRoutine();
 		void _inputRoutine();

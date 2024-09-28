@@ -14,6 +14,7 @@ namespace Matm
 
 		const sf::Vector2f& getVelocity();
 		void setVelocity(const sf::Vector2f& velocity);
+		sf::Vector2f getCentre();
 
 		GameObject();
 		virtual void Ai(const EnvironmentData& envData) = 0;
@@ -21,6 +22,7 @@ namespace Matm
 		sf::Vector2f _velocity;
 
 	protected:
+
 		void _moveUsingVelocity();
 	};
 }
